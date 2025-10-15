@@ -1,0 +1,73 @@
+ol li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 100px;
+}
+
+body {
+  border: hidden 2px beige;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin:  0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.image{
+  background-image: url('https://images.unsplash.com/photo-1704649917979-9a23d585da95');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 1000px;
+}
+
+
+div{
+font-weight: 1000;
+font-family: 'Times New Roman', Times, serif;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+justify-content: center;
+color: black;
+font-weight: 600;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+display: flex;
+gap: 20px;
+}
+
+img{
+    width: 50px;
+}
+
+sub{
+    font-size: xx-small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,0 +1,89 @@
+body {
+    background-image: url('images/photo-1519225457808-763c75397069.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    width: 100%;
+}
+
+ol li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    animation: infinite;
+}
+
+.tagline{
+    font-style: italic;
+    text-align: center;
+}
+
+div{
+font-weight: 1000;
+font-family: 'Times New Roman', Times, serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+justify-content: center;
+color: white;
+font-weight: 600;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+display: flex;
+gap: 20px;
+}
+
+img{
+    width: 50px;
+}
+
+sub{
+    font-size: xx-small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.new{
+    display: block;
+    padding: 30px;
+    margin: 30px;
+}
+
+.testimonial-cards{
+    display: block;
+    padding: 30px;
+    margin: 30px;
+
+}
+
+h2{
+color: white;
+    text-align: center;
+}
